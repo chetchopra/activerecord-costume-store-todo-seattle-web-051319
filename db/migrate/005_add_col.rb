@@ -1,0 +1,1 @@
+class AddCol < ActiveRecord::Migrations
