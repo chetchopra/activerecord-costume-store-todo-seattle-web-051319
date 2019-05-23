@@ -1,7 +1,7 @@
 class ChangeColNameAgain < ActiveRecord::Migration[5.1]
   def change
     
-    rename_column :HauntedG
+    rename_column :haunted_houses, :long_description, :description
     
   end
 end
